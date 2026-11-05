@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service — Lingoa</title>
+  <meta name="description" content="Official Terms of Service for Lingoa — Learn English Vocabulary.">
+  <link rel="icon" type="image/png" href="assets/app_logo_3d_512.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4F46E5;
+      --primary-dark: #3730A3;
+      --accent: #2563EB;
+      --bg: #0B0F19;
+      --card-bg: rgba(17, 24, 39, 0.75);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --text: #F3F4F6;
+      --text-muted: #9CA3AF;
+      --text-dim: #6B7280;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 0;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(79, 70, 229, 0.15) 0%, transparent 40%),
+        radial-gradient(circle at 85% 75%, rgba(37, 99, 235, 0.12) 0%, transparent 40%);
+      background-attachment: fixed;
+    }
+    header {
+      border-bottom: 1px solid var(--card-border);
+      background: rgba(11, 15, 25, 0.85);
+      backdrop-filter: blur(16px);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .header-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 800;
+      font-size: 1.25rem;
+    }
+    .brand img {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4);
+    }
+    .back-btn {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+      transition: all 0.2s ease;
+    }
+    .back-btn:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto 80px;
+      padding: 0 24px;
+    }
+    .policy-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 24px;
+      padding: 48px;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #FFFFFF 0%, #A5B4FC 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .meta {
+      color: var(--text-dim);
+      font-size: 0.9rem;
+      margin-bottom: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--card-border);
+    }
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-top: 36px;
+      margin-bottom: 14px;
+      color: #EEF2FF;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #C7D2FE;
+    }
+    p {
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+    ul {
+      margin-left: 24px;
+      margin-bottom: 20px;
+      color: var(--text-muted);
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    strong {
+      color: #FFFFFF;
+    }
+    a {
+      color: #818CF8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .highlight-box {
+      background: rgba(79, 70, 229, 0.08);
+      border: 1px solid rgba(79, 70, 229, 0.25);
+      border-radius: 14px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+    .contact-card {
+      background: linear-gradient(135deg, rgba(79, 70, 229, 0.15) 0%, rgba(37, 99, 235, 0.15) 100%);
+      border: 1px solid rgba(129, 140, 248, 0.3);
+      border-radius: 16px;
+      padding: 24px;
+      margin-top: 40px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--card-border);
+    }
+    @media (max-width: 640px) {
+      .policy-card { padding: 24px 18px; }
+      h1 { font-size: 1.85rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/app_logo_3d_512.png" alt="Lingoa Logo">
+        <span>Lingoa</span>
+      </a>
+      <a href="index.html" class="back-btn">← Back to Home</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="policy-card">
+      <h1>Terms of Service</h1>
+      <div class="meta">
+        <strong>Effective Date:</strong> October 10, 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> October 31, 2026
+      </div>
+
+      <p>
+        Welcome to <strong>Lingoa</strong> ("App", "we", "us", or "our"), developed and operated by <strong>Mohammed Ayman Hagras</strong> ("Developer"). These Terms of Service ("Terms") govern your access to and use of the Lingoa mobile application, associated services, and website.
+      </p>
+      <p>
+        By downloading, installing, or using Lingoa, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the application.
+      </p>
+
+      <h2>1. Developer Information & Contact</h2>
+      <div class="highlight-box">
+        <p style="margin-bottom: 6px;"><strong>Application Name:</strong> Lingoa — Learn English Vocabulary</p>
+        <p style="margin-bottom: 6px;"><strong>Developer:</strong> Mohammed Ayman Hagras</p>
+        <p style="margin-bottom: 6px;"><strong>Official Support Email:</strong> <a href="mailto:mohammedaymanhagras@gmail.com">mohammedaymanhagras@gmail.com</a></p>
+        <p style="margin-bottom: 0;"><strong>Developer Profile:</strong> <a href="https://www.linkedin.com/in/mohamed-ayman-3395a3233" target="_blank" rel="noopener">linkedin.com/in/mohamed-ayman-3395a3233</a></p>
+      </div>
+
+      <h2>2. Description of the Service</h2>
+      <p>
+        Lingoa provides educational English vocabulary learning tools designed around the Oxford 3000 corpus, modern memory science (Free Spaced Repetition Scheduler - FSRS), real-world native video pronunciations, contextual stories, interactive flashcards, speaking evaluations, and Android home-screen widgets.
+      </p>
+      <p>
+        The core learning database operates on an <strong>offline-first architecture</strong>, storing study progress on the user's local device without mandatory account creation.
+      </p>
+
+      <h2>3. In-App Purchases, Subscriptions & Google Play Billing</h2>
+      <p>
+        Lingoa is free to download and use with ad-supported features. We offer an optional premium upgrade, <strong>Lingoa Pro</strong>, which removes all advertisements and unlocks full premium capabilities.
+      </p>
+
+      <h3>A. Google Play In-App Billing</h3>
+      <p>
+        All digital purchases and subscriptions within Lingoa are processed exclusively and securely through <strong>Google Play In-App Billing</strong>. Lingoa complies strictly with Google Play’s Payments Policy. We do not store or process your credit card, debit card, or payment credentials.
+      </p>
+
+      <h3>B. Automatic Renewal & Cancellation</h3>
+      <ul>
+        <li><strong>Auto-Renewal:</strong> Paid subscriptions automatically renew for the same duration (e.g., monthly or annually) unless canceled at least <strong>24 hours prior</strong> to the end of the current billing cycle.</li>
+        <li><strong>Billing Notice:</strong> Your Google Play account will be charged within 24 hours prior to the conclusion of the active subscription period at the published rate.</li>
+        <li><strong>How to Cancel:</strong> You may manage or cancel your subscription at any time directly through Google Play settings:
+          <ol style="margin-left: 20px; margin-top: 6px;">
+            <li>Open the <strong>Google Play Store</strong> app on your Android device.</li>
+            <li>Tap your profile icon in the top right corner.</li>
+            <li>Select <strong>Payments & subscriptions</strong> ➔ <strong>Subscriptions</strong>.</li>
+            <li>Select <strong>Lingoa</strong> and tap <strong>Cancel subscription</strong>.</li>
+          </ol>
+        </li>
+        <li><strong>Post-Cancellation Access:</strong> Upon cancellation, you will retain full access to Lingoa Pro features until the conclusion of your paid billing period.</li>
+      </ul>
+
+      <h3>C. Free Trials & Introductory Pricing</h3>
+      <p>
+        If an offering includes a free trial period, you will enjoy complete Pro access at no charge for the specified trial duration. Unless canceled at least 24 hours before the trial ends, the subscription will automatically convert into a paid recurring subscription and charge your Google Play account.
+      </p>
+
+      <h3>D. Subscriptions with Ongoing Eligibility-Based Discounts</h3>
+      <p>
+        In strict compliance with Google Play's Subscriptions Policy regarding ongoing eligibility-based discounts (such as student, teacher, or partner pricing):
+      </p>
+      <ul>
+        <li><strong>Clear Eligibility Criteria:</strong> Any ongoing discount requires proof of qualification (e.g., valid student enrollment or active partner affiliate verification).</li>
+        <li><strong>Verification Process:</strong> Verification requirements will be clearly disclosed prior to purchase. If eligibility verification fails or expires, the discounted rate will no longer apply.</li>
+        <li><strong>Post-Eligibility Pricing:</strong> Following the conclusion of your eligible discount period, your subscription will automatically transition to the then-current standard retail renewal price, clearly disclosed in advance. You maintain the right to cancel at any time prior to renewal.</li>
+      </ul>
+
+      <h3>E. Refund Policy</h3>
+      <p>
+        All billing and refund requests are governed by Google Play’s official refund policies. To request a refund for an in-app purchase, visit Google Play's <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener">Refund Request Support Page</a>.
+      </p>
+
+      <h2>4. Privacy & Hardware Permissions</h2>
+      <p>
+        Your privacy is paramount. Our complete data practices are outlined in our <a href="privacy.html">Privacy Policy</a>. By using the app, you acknowledge:
+      </p>
+      <ul>
+        <li><strong>Microphone Permission (RECORD_AUDIO):</strong> Used solely for on-device pronunciation assessment and accent coaching. Your voice is analyzed ephemerally in real-time and is <strong>never recorded, saved, or uploaded to any remote server</strong>.</li>
+        <li><strong>Local Storage:</strong> All user progress, bookmarks, and quiz statistics are stored securely on your local device (SQLite).</li>
+      </ul>
+
+      <h2>5. Intellectual Property & Acceptable Use</h2>
+      <ul>
+        <li><strong>Content Ownership:</strong> The Lingoa design, user interface, brand assets, mascot animations, and proprietary algorithms are owned by Mohammed Ayman Hagras.</li>
+        <li><strong>Educational Curriculum:</strong> Word definitions, phonetic guides, and example sentences reference curated educational datasets (including the Oxford 3000 corpus) utilized under fair educational principles.</li>
+        <li><strong>Restrictions:</strong> You agree not to reverse engineer, decompile, distribute, or modify the app's binary files or assets.</li>
+      </ul>
+
+      <h2>6. Disclaimer of Warranties & Limitation of Liability</h2>
+      <p>
+        Lingoa is provided on an "AS IS" and "AS AVAILABLE" basis. While we strive for absolute accuracy in pronunciation, definitions, and spaced-repetition schedules, the Developer makes no warranties regarding uninterrupted availability or total error-free operation. To the maximum extent permitted by applicable law, the Developer shall not be liable for any indirect, incidental, or consequential damages resulting from the use or inability to use the application.
+      </p>
+
+      <h2>7. Modifications to Terms</h2>
+      <p>
+        We reserve the right to modify these Terms to align with new legal requirements, app features, or Google Play policy updates. Continued use of Lingoa following any update constitutes acceptance of the amended Terms.
+      </p>
+
+      <div class="contact-card">
+        <h3 style="margin-top: 0; color: #EEF2FF;">Questions or Support?</h3>
+        <p style="margin-bottom: 8px;">For inquiries regarding these Terms, payments, or your learning experience:</p>
+        <p style="margin-bottom: 0;">
+          <strong>Mohammed Ayman Hagras</strong><br>
+          📧 Email: <a href="mailto:mohammedaymanhagras@gmail.com">mohammedaymanhagras@gmail.com</a><br>
+          💼 LinkedIn: <a href="https://www.linkedin.com/in/mohamed-ayman-3395a3233" target="_blank" rel="noopener">linkedin.com/in/mohamed-ayman-3395a3233</a><br>
+          📱 Application: <strong>Lingoa — Learn English Vocabulary</strong>
+        </p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Lingoa. Developed by Mohammed Ayman Hagras. All rights reserved.</p>
+    <p style="margin-top: 6px;">
+      <a href="index.html">Home</a> &nbsp;•&nbsp; 
+      <a href="privacy.html">Privacy Policy</a> &nbsp;•&nbsp; 
+      <a href="terms.html">Terms of Service</a> &nbsp;•&nbsp; 
+      <a href="app-ads.txt">app-ads.txt</a>
+    </p>
+  </footer>
+
+</body>
+</html>
